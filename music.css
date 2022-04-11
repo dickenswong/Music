@@ -1,0 +1,127 @@
+body {
+  background-color: #c77be6;
+  /* background-color: #eb67e6;
+  
+  background-color: #1985b8; */
+}
+
+h1 {
+  color: rgb(20, 19, 19);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(20, 19, 19);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(20, 19, 19);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.Pic {
+  display: grid;
+  grid-template-columns: repeat(3 2fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.Pic pic1 {
+  grid-column: 2;
+  grid-row: 1;
+  height: 700px;
+  width: 700px;
+}
+
+.btn {
+  display: grid;
+  grid-template-columns: repeat(9, 10%);
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.backbtn {
+  grid-column: 2;
+  grid-row: 1;
+  width: 60px;
+  height: 60px;
+  background-color: #0c0c0c;
+  font-size: 45px;
+  border-radius: 80%;
+  color: rgb(248, 244, 244);
+  text-align: center;
+  margin-left: 300px;
+}
+.playbtn {
+  grid-column: 3;
+  grid-row: 1;
+  width: 60px;
+  height: 60px;
+  background-color: #0c0c0c;
+  font-size: 25px;
+  border-radius: 80%;
+  color: rgb(248, 244, 244);
+  text-align: center;
+  margin-left: 300px;
+}
+
+.forwardbtn {
+  grid-column: 4;
+  grid-row: 1;
+  width: 60px;
+  height: 60px;
+  background-color: #0c0c0c;
+  font-size: 45px;
+  border-radius: 80%;
+  color: rgb(248, 244, 244);
+  text-align: center;
+  margin-left: 300px;
+}
+
+.slider {
+  display: grid;
+  grid-template-columns: repeat(3 33.4%);
+  grid-template-rows: repeat(3, 20px);
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: url("contrasticon.png");
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 23px;
+  height: 24px;
+  border: 0;
+  background: url("contrasticon.png");
+  cursor: pointer;
+}
+
+input#seekslider {
+  grid-column: 2;
+  grid-row: 1;
+  width: 400px;
+  color: rgb(14, 13, 13);
+  align-content: center;
+  margin-left: auto;
+}
+
+input#volumeslider {
+  grid-column: 2;
+  grid-row: 2;
+  width: 250px;
+  color: rgb(14, 13, 13);
+  align-content: center;
+  margin-left: 77px;
+}
