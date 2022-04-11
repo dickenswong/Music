@@ -8,7 +8,7 @@ var x,
   isPlay = 1;
 
 var pic_src = new Array(
-  "/image/ukulele.PNG",
+  "/image/ukulele.PNG",G
   "/image/betterdays.PNG",
   "/image/sunny.PNG"
 );
